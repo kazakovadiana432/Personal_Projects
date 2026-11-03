@@ -13,3 +13,7 @@ MIN_CATEGORY_ORDERS = 200
 # On-time bad-review rate, category minus all orders.
 # Same 5 point bar as "large enough to care."
 MIN_ON_TIME_GAP = 0.05
+
+# Purchase window. End is excluded. Outside it the months are scraps.
+MONITOR_START = "2017-01-01"
+MONITOR_END = "2018-09-01"
