@@ -20,6 +20,9 @@ def main():
     print()
     print("quality analysis by grain")
     print(run_sql(con, "quality_grain.sql").to_string(index=False))
+    print()
+    print("quality analysis by purchase month")
+    print(run_sql(con, "orders_historical.sql").to_string(index=False))
 
 
 if __name__ == "__main__":
