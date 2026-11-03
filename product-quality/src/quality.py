@@ -17,6 +17,9 @@ def main():
     attach(con)
     print("EDA of the data")
     print(run_sql(con, "quality_values.sql").to_string(index=False))
+    print()
+    print("quality analysis by grain")
+    print(run_sql(con, "quality_grain.sql").to_string(index=False))
 
 
 if __name__ == "__main__":
