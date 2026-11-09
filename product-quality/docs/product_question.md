@@ -16,3 +16,4 @@ Bars are locked in [config/settings.py](../config/settings.py).
 |---|---|
 | Enough orders | The category has at least 200 orders in the window | A category under 200 orders is too small to rank |
 | Worse when on time | Bad-review rate among its on-time orders is at least 5 percentage points above the on-time rate for all orders | A category that fails this check is a delivery pattern, not a product-quality finding |
+| One seller | The biggest seller has at least half of the category's on-time bad reviews | The category is that seller, not the category |
