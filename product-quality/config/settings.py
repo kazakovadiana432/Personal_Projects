@@ -17,3 +17,6 @@ MIN_ON_TIME_GAP = 0.05
 # Purchase window. End is excluded. Outside it the months are scraps.
 MONITOR_START = "2017-01-01"
 MONITOR_END = "2018-09-01"
+
+# One seller has most of the on-time bad reviews.
+MIN_TOP_SELLER_SHARE = 0.50
